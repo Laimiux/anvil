@@ -9,4 +9,6 @@ import com.squareup.scopes.AppScope
 interface DescriptionComponent {
   fun fatherProvider(): FatherProvider
   fun motherProvider(): MotherProvider
+
+  fun parents(): Parents
 }
